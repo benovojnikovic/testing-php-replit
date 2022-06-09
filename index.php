@@ -1,9 +1,9 @@
 <?php
 
-echo'<h1>Calculator!</h1>;
+echo '<h1>Calculator!</h1>';
 
-  include 'Calculator.php';
+include 'Calculator.php';
 
-  $myCalc = new Calculator();
+$myCalc = new Calculator();
 
-  echo $myCalc->add(2,2);
+echo $myCalc->add(2,2);
